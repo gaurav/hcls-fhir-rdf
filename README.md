@@ -18,13 +18,17 @@ Code for the ShEx generation can be found in [ShExGenerator.java](https://github
 ---------
 
 ## Directories
+Still in use:
+* scripts -- Convenience scripts for transforming FHIR RDF data
+
+Obsolete:
 * <del>data - the current stable FHIR specification</del>
-  * examples -- XML examples from specification
-  * site -- FHIR definitions (we use the json format)
-  * rdf -- RDF representation of examples
-  * definitions.shex -- shex definitions of FHIR content
-  * definitions.xml -- XML definitions used in xslt transformation
-  * extract.log -- log of build for the data directory
+  * <del>examples -- XML examples from specification</del>
+  * <del>site -- FHIR definitions (we use the json format)</del>
+  * <del>rdf -- RDF representation of examples</del>
+  * <del>definitions.shex -- shex definitions of FHIR content</del>
+  * <del>definitions.xml -- XML definitions used in xslt transformation</del>
+  * <del>extract.log -- log of build for the data directory</del>
 * <del>hcls_fhir_rdf -- python 3 modules for building data directory</del>
 * <del>ontology -- early work on modeling FHIR definitions in OWL</del>
 * <del>tests -- python unit tests (not a lot at the moment)</del>
